@@ -15,7 +15,7 @@ To run a Docker container passing [any parameters](https://wiki.jenkins-ci.org/d
 
 Linking to the Jenkins master container there is no need to use `--master`
 
-    docker run -d --name jenkins -p 8080:8080 wonderphil/jenkins-swarm
+    docker run -d --name jenkins -p 8080:8080 wonderphil/jenkins-swarm-slave-dotnet-core-docker
     docker run -d --link jenkins:jenkins wonderphil/jenkins-swarm-slave-dotnet-core-docker -username jenkins -password jenkins -executors 1
 
 
