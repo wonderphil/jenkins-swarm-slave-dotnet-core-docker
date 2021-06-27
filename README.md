@@ -21,4 +21,4 @@ Linking to the Jenkins master container there is no need to use `--master`
 
 # Building
 
-    docker build -t wonderphil/jenkins-swarm-slave-dotnet-core-docker .
+    docker build -t jenkins-swarm-slave-dotnet-core-docker .
